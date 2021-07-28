@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIXAMLProject1.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:NUIXAMLProject1"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="White">
+    <View.Layout>
+        <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
+    </View.Layout>
+    <ImageView x:Name="imgView"
+               ResourceUrl="*Resource*/images/Poster_1.png"
+               Size2D="600, 600"
+               ResourceReady="imgView_ResourceReady"
+               BackgroundColor="#000011"/>
+</View>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "tS+58nzzyDYV5GERn8xNQbSFSBFh44Ie+En3KFEdoT5+vj7GJ0uPlySDPT+VovfcIpBIEDC7YrI4Ch9Wn5yjvQ==",
+  "success": true,
+  "projectFilePath": "\\\\10.113.111.211\\share\\common\\tscholb_sample\\HackerTon\\NUIXAMLProject1\\NUIXAMLProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net\\9.0.0.16469\\tizen.net.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net.api9\\9.0.0.16469\\tizen.net.api9.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net.internals\\9.0.0.16469\\tizen.net.internals.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
