@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "owbGWQf5aOCA2PmfcPtvqvMqVh70+NoCwCyz5EpsTaTNAh9T+bVhwxVaP6vy/tSLRfI09JpiviyTdj8wioBWdg==",
+  "success": true,
+  "projectFilePath": "\\\\10.113.111.211\\share\\common\\tscholb_sample\\HackerTon\\external\\Hackerthon2021\\Tutorial\\BaseComponents\\NUIImageTemplete\\NUIImageTemplete.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net\\9.0.0.16469\\tizen.net.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net.api9\\9.0.0.16469\\tizen.net.api9.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.net.internals\\9.0.0.16469\\tizen.net.internals.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\scholb.kim\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

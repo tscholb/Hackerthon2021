@@ -1,0 +1,65 @@
+﻿// Total
+<ImageView x:Name="imgView"
+           ResourceUrl="*Resource*/images/Poster_1.png"
+           Size2D="600, 600"
+           PixelArea="0.0, 0.0, 1.0, 1.0"
+           FittingMode="ShrinkToFit"  
+           BackgroundColor="#000011"/>
+
+
+//PixelArea
+<ImageView x:Name="imgView"
+               ResourceUrl="*Resource*/images/Poster_1.png"
+               Size2D="600, 600"
+               PixelArea="0.4, 0.4, 0.6, 0.6"/>
+
+//FittingMode
+<ImageView x:Name="imgView"
+               ResourceUrl="*Resource*/images/Poster_1.png"
+               Size2D="600, 600"
+               FittingMode="ShrinkToFit"  
+               BackgroundColor="#000011"/>
+
+//Alpha Mask
+ <ImageView x:Name="imgView"
+              ResourceUrl="*Resource*/images/Poster_1.png"
+              AlphaMaskURL="{ResourcePath FilePath=images/mask-large.png}"
+              Size2D="400, 400"/>
+
+// gif + button
+<ImageView x:Name="imgView"
+               ResourceUrl="*Resource*/images/dog-anim.gif"
+               Size2D="400, 400"/>
+<Button Text="Play" Size="100, 100" Clicked="Play_Clicked"/>
+<Button Text="Stop" Size="100, 100" Clicked="Stop_Clicked"/>
+
+private void Play_Clicked(object sender, Tizen.NUI.Components.ClickedEventArgs e)
+{
+  imgView.Play();
+}
+private void Stop_Clicked(object sender, Tizen.NUI.Components.ClickedEventArgs e)
+{
+  imgView.Stop();
+}
+
+// lottie
+<LottieAnimationView x:Name="lottieView"
+               ResourceUrl="*Resource*/images/loading_circle.json"
+               Size2D="600, 600"
+               LoopCount="-1"
+               BackgroundColor="#FFFFFF"/>
+
+
+// Resource Ready
+<ImageView x:Name="imgView"
+               ResourceUrl="*Resource*/images/Poster_1.png"
+               Size2D="600, 600"
+               PixelArea="0.0, 0.0, 1.0, 1.0"
+               FittingMode="ShrinkToFit"
+               ResourceReady="imgView_ResourceReady"
+               BackgroundColor="#000011"/>
+
+private void imgView_ResourceReady(object sender, ImageView.ResourceReadyEventArgs e)
+{
+  imgView.Position2D = new Position2D(400, 0);
+}
